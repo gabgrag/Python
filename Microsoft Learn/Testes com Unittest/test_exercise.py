@@ -17,11 +17,11 @@ class TestStrToBool(unittest.TestCase):
 
     def test_y_is_true(self):
         result = str_to_bool('y')
-        self.assertTrue(result)
+        self.assertTrue(result) #realiza o teste
 
     def test_yes_is_true(self):
         result = str_to_bool('Yes')
-        self.assertTrue(result)
+        self.assertTrue(result) #realiza o teste
         
     def test_invalid_input(self):
         with self.assertRaises(AttributeError):
